@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "01",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "1",
+      "output": "Tingkat Kecantikan = 1\r\nPotensi = 1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "02",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "12",
+      "output": "Tingkat Kecantikan = 1\r\nPotensi = 12",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "03",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "12345",
+      "output": "Tingkat Kecantikan = 3\r\nPotensi = 45231",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "04",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "12354",
+      "output": "Tingkat Kecantikan = 3\r\nPotensi = 45231",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "05",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "126543125363151411231",
+      "output": "Tingkat Kecantikan = 5\r\nPotensi = 123114151363251345612",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "06",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "123456",
+      "output": "Tingkat Kecantikan = 3\r\nPotensi = 645231",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "07",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "1111111111111111111111111",
+      "output": "Tingkat Kecantikan = 6\r\nPotensi = 1111111111111111111111111",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "08",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "1238472",
+      "output": "Tingkat Kecantikan = 4\r\nPotensi = 2478231",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "09",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "0",
+      "output": "Tingkat Kecantikan = 1\r\nPotensi = 0",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "100",
+      "output": "Tingkat Kecantikan = 2\r\nPotensi = 001",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
