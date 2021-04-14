@@ -65,7 +65,7 @@
       "setup": "",
       "run": "./soal-02",
       "input": "1111111111111111111111111",
-      "output": "Tingkat Kecantikan = 6\r\nPotensi = 1111111111111111111111111",
+      "output": "Tingkat Kecantikan = 5\r\nPotensi = 1111111111111111111111111",
       "comparison": "included",
       "timeout": 1,
       "points": 10
@@ -75,7 +75,7 @@
       "setup": "",
       "run": "./soal-02",
       "input": "1238472",
-      "output": "Tingkat Kecantikan = 4\r\nPotensi = 2478231",
+      "output": "Tingkat Kecantikan = 5\r\nPotensi = 2478231",
       "comparison": "included",
       "timeout": 1,
       "points": 10
